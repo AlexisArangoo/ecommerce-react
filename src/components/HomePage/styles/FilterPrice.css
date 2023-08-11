@@ -39,12 +39,14 @@
 }
 
 .filterprice-form-container-input{
+    width: 100%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 0.4em;
 }
 
 .filterprice-form-input{
+    width: 100%;
     padding: 0.3em;
 }
 
