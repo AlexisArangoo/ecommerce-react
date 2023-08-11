@@ -7,12 +7,11 @@ import getConfigToken from "../utils/configToken"
 const useAunth = () => {
     
     const dispatch = useDispatch()
-    
-    const [loginInfo, setLoginInfo] = useState({})
+
 
     const [infoOneUser, setInfoOneUser] = useState()
 
-    console.log(loginInfo)
+
 
     const getOneUser = (id) => { 
         
@@ -40,8 +39,8 @@ const useAunth = () => {
         axios.post(url, data)
             .then(resp => {
                 console.log(resp.data)
-                setLoginInfo(resp.data)
                 localStorage.setItem('token', resp.data.token)
+                localStorage.setItem('name', `${resp.data.user.firstName} ${resp.data.user.lastName}`)
                 dispatch(setOnLoginG(localStorage.getItem('token')))
                 navigate('/')
             })
@@ -51,7 +50,7 @@ const useAunth = () => {
             })
     }
 
-    return { createUser, loginUser, loginInfo, getOneUser, infoOneUser }
+    return { createUser, loginUser, getOneUser, infoOneUser }
 }
 
 export default useAunth
