@@ -30,8 +30,7 @@ const ProductInCart = ({ prodCart }) => {
                 }
                 upDateProductInCart(data, prodCart.id)
             }, 50);
-
-           
+  
         }
     } 
        

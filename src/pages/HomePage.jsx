@@ -35,7 +35,7 @@ const HomePage = () => {
         return filterName && filterPrice
     }
 
-  return (
+  return ( 
     <div className="homepage">
         <div className="homepage-container-filter">
             <FilterPrice setFromTo={setFromTo} />

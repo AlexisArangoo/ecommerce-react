@@ -23,6 +23,7 @@
 }
 .cartpage-container-products{
     overflow: auto;
+    padding-top: 1em;
 }  
 
 .cartpage-footer{
