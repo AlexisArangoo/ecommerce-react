@@ -22,7 +22,7 @@ const ProductIdPage = () => {
     <div className="productidpage">
 
         <header className="productidpage-header">
-          <Link>
+          <Link to={'/'}>
             <span className="productidpage-header-home">Home</span>
           </Link>
           <span className="productidpage-header-punto">°</span>
