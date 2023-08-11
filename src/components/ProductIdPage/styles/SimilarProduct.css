@@ -1,0 +1,15 @@
+.similarproduct{
+    padding: 2em;
+}
+
+.similarproduct-title{
+    color: #f85555;
+}
+
+.similarproduct-container-cart{
+    padding: 3em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5em;
+}

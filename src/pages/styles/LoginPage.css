@@ -1,0 +1,50 @@
+.loginpage{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginpage-form{
+    width: 100%;
+    max-width: 300px;
+    margin-top: 8em;
+    padding: 2em;
+    box-shadow: 0 0 0.3em #ccc;
+    border-radius: 0.5em;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    background-color: #f85555;
+    color: white;
+}
+
+.loginpage-form-container-input{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
+
+.loginpage-form-input{
+    padding: 0.4em;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.loginpage-form-btn{
+    padding: 0.6em;
+    font-size: 1.1rem;
+    font-weight: 600;
+    border-radius: 0.2em;
+}
+
+.loginpage-form-par-register{
+    color: #aaa;
+    font-size: 1.1rem;
+    font-weight: 700;
+    cursor: pointer;
+}

@@ -1,0 +1,99 @@
+.cardproduct{
+    width: 100%;
+    max-width: 20em;
+    border-radius: 0.5em;
+    border: 1px solid hsl(0, 0%, 80%);
+    cursor: pointer;
+    transition: transform 150ms ease;
+
+}
+
+.cardproduct:hover{
+    transform: scale(1.03);
+}
+
+.cardproduct-header{
+    padding: 1.2em;
+    aspect-ratio: 1.5;
+    position: relative;
+}
+
+.cardproduct-header img{
+    width: 85%;
+    height: 85%;
+    object-fit: contain;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    transition: opacity 1000ms ease;
+}
+
+.cardproduct-header:hover .img1{
+    opacity: 0;
+}
+
+.cardproduct-header:hover .img2{
+    opacity: 1;
+}
+
+.img1{
+    opacity: 1;
+}
+
+.img2{
+    opacity: 0;
+}
+
+.cardproduct-body{
+    position: relative;
+    padding: 1em;
+    border-top: 1px solid #ccc;
+}
+
+.body-brand{
+    color: #888;
+    font-weight: 500;
+    padding-bottom: 0.5em;
+}
+
+.body-title{
+    margin-left: 0.6em;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.body-price{
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.body-price-value{
+    color: #888;
+    font-size: 0.9rem;
+    font-weight: 400;
+    padding-bottom: 0.5em;
+}
+
+.body-price-span{
+    padding-left: 0.6em;
+    font-weight: 600;
+}
+
+.body-btn{
+    position: absolute;
+    right: 1.5em;
+    bottom: 1.5em;
+    font-size: 1.5em;
+    width: 2em;
+    aspect-ratio: 1;
+    background-color: #f85555;
+    color: white;
+    border-radius: 50%;
+    filter: grayscale(0.3);
+}
+
+.body-btn:hover{
+    filter: grayscale(0);
+}
+

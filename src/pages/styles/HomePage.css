@@ -1,0 +1,36 @@
+.homepage{
+    position: relative;
+    top: 6.3em; 
+    width: 100%;
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+
+.homepage-container-filter{
+    padding: 1em;
+}
+
+.homepage-body{
+    height: 510px;
+    overflow: auto;
+    padding: 1em;
+}
+
+.homepage-body-input{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 4em;
+    padding: 0.5em;
+    border: 2px solid #f85555;
+    color: #f85555;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.homepage-body-products{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5em;
+}

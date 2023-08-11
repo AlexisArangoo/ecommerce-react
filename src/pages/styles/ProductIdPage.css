@@ -1,0 +1,23 @@
+.productidpage{
+    position: relative;
+    top: 4em;
+}
+
+.productidpage-header{
+    width: max-content;
+    padding: 3em 0 1em 2em;
+    display: flex;
+    justify-content: space-between;
+    gap: 1em;
+}
+
+.productidpage-header-punto{
+    position: relative;
+    top: 0.3rem;
+    color: #f85555;
+}
+
+.productidpage-header-title{
+    font-size: 1.1rem;
+    font-weight: 800;
+}
