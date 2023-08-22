@@ -114,6 +114,10 @@
         grid-template-columns: repeat(2, auto);
     }
 
+    .homepage-body{
+        height: 100vh;
+    }
+
     .span-filter{
         visibility: visible;
     }
