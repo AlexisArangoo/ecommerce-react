@@ -97,3 +97,9 @@
     filter: grayscale(0);
 }
 
+
+@media screen and (max-width: 950px) {
+    .cardproduct:hover{
+        transform: scale(1);
+    }
+}

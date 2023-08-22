@@ -7,6 +7,10 @@
     padding: 2em;
 }
 
+.productinfo-carucel{
+    width: 100%;
+}
+
 .productinfo-body{
     padding: 1em;
 }
@@ -84,4 +88,14 @@
     padding: 1em;
     background-color: #f85555;
     color: white;
+}
+
+@media screen and (max-width: 1000px) {
+    .productinfo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    
 }

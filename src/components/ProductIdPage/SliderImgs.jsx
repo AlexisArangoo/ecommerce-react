@@ -10,7 +10,7 @@ const SliderImgs = ({ product }) => {
       return () => {
         clearInterval(interval);
       };
-    }, [imgSelected]); // Limpiar el intervalo cuando imgSelected cambie
+    }, [imgSelected]);
   
     const movablestyle = {
       transform: `translateX(calc(-${imgSelected}/3 * 100%))`,

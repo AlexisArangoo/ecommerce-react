@@ -1,5 +1,3 @@
-import { useEffect } from "react"
-import useAunth from "../hooks/useAunth"
 import './styles/PerfilPage.css'
 import { useNavigate } from "react-router-dom"
 import { setOnLoginG } from "../store/slices/onLogin.slice"

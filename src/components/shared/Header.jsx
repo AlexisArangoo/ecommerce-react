@@ -1,7 +1,5 @@
 import { Link, useNavigate } from "react-router-dom";
 import './styles/Header.css'
-import { useEffect, useState } from "react";
-import useAunth from "../../hooks/useAunth";
 import { useSelector } from "react-redux";
 
 const Header = ({setOnCart}) => {
@@ -31,7 +29,7 @@ const Header = ({setOnCart}) => {
           ? (
             <Link to="/profile">
                <li className="header-nav-item">
-                   <i className="bx bx-user"></i>
+                  <i className="bx bx-user"></i>
                </li>
             </Link>
           ) 
